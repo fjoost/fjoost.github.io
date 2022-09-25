@@ -1,6 +1,3 @@
-Thanks for downloading this template!
+Developing software from Patagonia Chile, hire us! 
 
-Template Name: Gp
-Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+contacto@hubpatagonia.tech
