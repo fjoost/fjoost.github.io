@@ -2,7 +2,7 @@ import emoji from "react-easy-emoji";
 
 export const greetings = {
 	name: "Fernando Joost",
-	title: "Hi all, I'm Fernando!",
+	title: "Hi, I'm Fernando! 👋🏻",
 	description:
 		"I'm passionate Full Stack web developer having an experience of web applications with Django, Laravel & Vue.js, and from now Im learning Blockchain development with Solidity!",
 	resumeLink:
@@ -123,7 +123,7 @@ export const skillsSection = {
 			],
 		},
 		{
-			title: "Blockchain (Soon)",
+			title: "Blockchain",
 			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
@@ -248,7 +248,7 @@ export const showContactUs = true;
 export const seoData = {
 	title: "Fernando Joost",
 	description:
-		"A passionate Full Stack Web Developer | tasting Blockchain Development.",
+		"Full Stack Web Developer | Soon in Blockchain Development.",
 	author: "Fernando Joost",
 	image: "https://avatars.githubusercontent.com/u/37663304?v=4",
 	url: "https://fjoost.github.io/",
