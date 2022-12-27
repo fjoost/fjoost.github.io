@@ -2,9 +2,9 @@ import emoji from "react-easy-emoji";
 
 export const greetings = {
 	name: "Fernando Joost",
-	title: "Hi all, I'm Fernando",
+	title: "Hi all, I'm Fernando!",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with Python, Laravel, Vue.js, and learning Blockchain development with Solidity!",
+		"I'm passionate Full Stack web developer having an experience of web applications with Django, Laravel & Vue.js, and from now Im learning Blockchain development with Solidity!",
 	resumeLink:
 		"https://drive.google.com/file/d/13ma_dq6qyK9t-Akdum13tg6SjUse6tFA/view?usp=sharing",
 };
@@ -21,7 +21,7 @@ export const socialLinks = {
 	github: "https://github.com/fjoost",
 	instagram: "https://www.instagram.com/fjoost_",
 	facebook: "https://www.facebook.com/fjoostr",
-	twitter: "https://twitter.com/fjoost",
+	twitter: "https://twitter.com/fernando_joost",
 };
 
 export const skillsSection = {
@@ -43,7 +43,7 @@ export const skillsSection = {
 					"⚡ Building RESTful APIs in Laravel Framework"
 				),
 				emoji(
-					"⚡ Building & managing WordPress Websites for clients!"
+					"⚡ Building & managing WordPress Websites for clients"
 				),
 			],
 			softwareSkills: [
@@ -90,31 +90,16 @@ export const skillsSection = {
 			],
 		},
 		{
-			title: "Cloud Infra-Architecture",
+			title: "Data Infra-Architecture",
 			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
 			skills: [
-				emoji("⚡ Experience of working on multiple cloud platforms"),
+				emoji("⚡ Experience of working with Docker containers, Nginx service & PostgreSQL Databases"),
 				emoji(
-					"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
-				),
-				emoji(
-					"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
+					"⚡ Experience of working with TBD & GitFlow in GitHub/GitLab repositories"
 				),
 			],
 			softwareSkills: [
 				// ? Check README To get icon details
-				{
-					skillName: "AWS",
-					fontAwesomeClassname: "logos:aws",
-				},
-				{
-					skillName: "Azure",
-					fontAwesomeClassname: "logos:microsoft-azure",
-				},
-				{
-					skillName: "Heroku",
-					fontAwesomeClassname: "logos:heroku-icon",
-				},
 				{
 					skillName: "PostgreSQL",
 					fontAwesomeClassname: "logos:postgresql",
@@ -128,42 +113,22 @@ export const skillsSection = {
 					fontAwesomeClassname: "logos:docker-icon",
 				},
 				{
-					skillName: "Github Actions",
-					fontAwesomeClassname: "logos:github-actions",
-				},
-				{
-					skillName: "Cloudinary",
-					fontAwesomeClassname: "logos:cloudinary",
-				},
-				{
 					skillName: "Nginx",
 					fontAwesomeClassname: "logos:nginx",
 				},
 				{
-					skillName: "Sentry",
-					fontAwesomeClassname: "logos:sentry-icon",
+					skillName: "Gitlab",
+					fontAwesomeClassname: "logos:gitlab",
 				},
 			],
 		},
 		{
-			title: "Blockchain",
+			title: "Blockchain (Soon)",
 			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
-				),
-				emoji(
-					"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
-				),
-				emoji(
-					"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
-				),
-				emoji(
-					"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
-				),
-				emoji(
-					"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
-				),
+					"⚡ Learning to develop Smart Contract using Solidity & Ethereum"
+				)
 			],
 			softwareSkills: [
 				{
@@ -175,16 +140,8 @@ export const skillsSection = {
 					fontAwesomeClassname: "logos:solidity",
 				},
 				{
-					skillName: "Web3js",
-					fontAwesomeClassname: "logos:web3js",
-				},
-				{
 					skillName: "Metamask",
 					fontAwesomeClassname: "logos:metamask-icon",
-				},
-				{
-					skillName: "Ganache",
-					fontAwesomeClassname: "logos:ganache-icon",
 				},
 			],
 		},
@@ -202,61 +159,53 @@ export const SkillBars = [
 	},
 	{
 		Stack: "Programming",
-		progressPercentage: "60",
+		progressPercentage: "70",
 	},
 ];
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		grade: "Grade A",
+		schoolName: "Inacap",
+		subHeader: "Computer Science Engineering",
+		duration: "March 2017 - December 2020",
+		desc: "2nd place at Go! Innova Challenge, 2019 edition",
+		grade: "Degree in Computer Science",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			
 		],
 	},
 ];
 
 export const experience = [
 	{
-		role: "Frontend Developer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Apr 2022 – Jun 2022",
-		desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.",
+		role: "FullStack Developer",
+		company: "UAysen",
+		companylogo: "/img/icons/common/uaysen-nuevo-1.png",
+		date: "Jun 2022 – Dec 2022",
+		// desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.",
 	},
 	{
-		role: "API Engineer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Jan 2022 – Mar 2022",
-		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
+		role: "FullStack Developer",
+		company: "Servicio de Salud de Aysén",
+		companylogo: "/img/icons/common/logo-ssa.jpg",
+		date: "May 2021 – May 2022",
+		// desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
 		// descBullets: [
 		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
 		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 		// ],
 	},
 	{
-		role: "Full Stack Developer",
-		company: "Bleed-AI",
-		companylogo: "/img/icons/common/bleedAI.jpg",
-		date: "Sept 2021 - Oct 2021",
-		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
-	},
-	{
-		role: "Backend Developer",
-		company: "Wapidu",
-		companylogo: "/img/icons/common/wapidu.jpg",
-		date: "Sept 2021",
-		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
+		role: "TI Analyst",
+		company: "Aguas Patagonia",
+		companylogo: "/img/icons/common/aguaspatagonia.jpeg",
+		date: "Jan 2017 - Mar 2021",
+		// desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
 	},
 ];
 
 export const projects = [
-	{
+	/* {
 		name: "developer-portfolio",
 		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
 		github: "",
@@ -276,7 +225,7 @@ export const projects = [
 		name: "Shopaza (Ecommerce)",
 		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
 		github: "",
-	},
+	}, */
 ];
 
 export const feedbacks = [
