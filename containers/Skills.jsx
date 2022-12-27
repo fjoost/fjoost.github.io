@@ -14,14 +14,14 @@ const Skills = () => {
 				return (
 					<Row className="my-5" key={index}>
 						<Col lg="6" className="order-2 order-lg-1">
-							<Fade left duration={2000}>
+							<Fade left duration={1000}>
 								<DisplayLottie
 									animationPath={section.lottieAnimationFile}
 								/>
 							</Fade>
 						</Col>
 						<Col lg="6" className="order-1 order-lg-2">
-							<Fade right duration={2000}>
+							<Fade right duration={1000}>
 								<h3 className="h3 mb-2">{section.title}</h3>
 								<div className="d-flex justify-content-center flex-wrap mb-2">
 									{section.softwareSkills.map((skill, i) => {
